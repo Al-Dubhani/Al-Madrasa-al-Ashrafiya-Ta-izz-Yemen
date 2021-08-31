@@ -1,0 +1,166 @@
+/*
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+body {
+    background-image : url("../images/Background-Image-AshrafiyahMosque-Taiz.png");
+    background-size: auto;
+}
+
+nav{
+overflow: center;
+}
+
+ol {
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  list-style: none;
+}
+
+   li {
+     float: left;
+}
+
+   nav a {
+     background-color: wheat;
+     width: 10px;
+     display: black;
+     text-decoration: none;
+     text-align: center;
+     font-size: 18px;
+     color: black;
+     border: 2px solid white;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .lang-2{
+       background-color: green;
+       color: white;
+   }
+
+   .en{
+       background-color: green;
+       color: white;
+   }
+
+   nav ol .lang{
+    background-color: white;
+    width: 281px;
+    display: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    border: 2px solid white;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+   }
+
+   nav a:hover {
+     background: green;
+     color: white;
+   }
+
+   .home{
+       background-color: green;
+     color: white;
+   }
+ 
+.page-image{
+    text-align:center;
+}
+
+.page-image img{
+       border: 3px solid wheat;
+       width: 1000px;
+   }
+
+h1 { 
+ color: green;
+ text-align : center;
+ font-size : 3rem;
+}
+
+#intro {
+    color : blacke;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+P {
+font-size : 2rem;
+margin: 3%;
+}
+
+ul {
+font-size : 2rem;
+font-style: italic;
+margin: 3%;
+}
+
+.points ul li{
+  margin: 10px;
+}
+
+.Opening{
+      font-size : 2rem;
+      text-align: center;
+      margin: 3%;
+      font-family: cursive, Arial, Helvetica, sans-serif;
+      text-decoration: underline;
+}
+
+.notice{
+      text-indent:25px;
+      background-color : orange;
+      font-size : 1.5rem;
+      width: 550px;
+      border: 5px;
+      border-style: dashed;
+      border-color: #FFFD52;
+      margin: 3%;
+       
+      padding-top: 15px;
+      padding-bottom:15px;
+      padding-left:20px;
+      padding-right:20px;       
+}
+
+::selection{
+  color: green;
+  background-color: white;
+}
+
+
+/* Mobiles */
+@media screen and (max-width: 480px) {
+ 
+}
+
+/* Tablets, Ipads */
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  body{
+    margin: 20px;
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+/* Laptops, Desktops */
+@media screen and (min-width: 1024px) {
+  body{
+    margin: 20px;
+    font-size: 40px;
+    padding: 12px;
+  }
+  
+  nav ol .menu li::first-letter {
+    font-size: 150%;
+  }
+}
+
